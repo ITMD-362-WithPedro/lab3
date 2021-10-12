@@ -204,7 +204,73 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 
+	body {
+		background-color: #C0C0C0;
+		font-family:Merriweather, Arial  ,serif;
+		text-align:center;
+		font-size: 1.3em
+		}
+		
+	h1 {
+		padding: 3%;
+		background-color:#DCDCDC;
+		font-size: 1.7em;
+		line-height:1em;
+		}
+		
+	p {
+		padding: 1%;
+		margin-top:5%;
+		font-size: 1.1em;
+		line-height:1em;
+		background-color:#DCDCDC;
+		}
 	
-
-
+	ol li {
+			line-height:1em;
+			font-size: 1.1em;
+			background-color:#DCDCDC;
+			}
+			
+	#input-email {
+				margin-top:5%;
+				padding:1.9%;
+				}
+				
+	#age-verification {
+						width: 40px;
+						height:40px;
+						}
+	input {
+			background-color:#A9A9A9;
+			}
+							
+	#input-submit {
+					line-height:2em;
+					}
+						
 /* ===== STATE STYLES ======= */
+
+	@media screen and (min-width: 984px) {
+		body {
+				font-size: 18px;
+				}
+				
+		h1 {
+				line-height:1em;
+				}
+				
+		p {
+			margin-top:2%;
+			}
+			
+		#input-email {
+						margin-top:2%;
+						}
+		
+		#age-verification {
+							width: 25px;
+							height:25px;
+							}
+						
+}
